@@ -43,7 +43,7 @@ func main() {
 		return
 	}
 
-	fmt.Println("Bot is now running")
+	fmt.Println("FELINE-BOT IS NOW RUNNING: TRY !MEOWME IN YOUR DISCORD CHANNEL")
 	sc := make(chan os.Signal, 1)
 	signal.Notify(sc, syscall.SIGINT, syscall.SIGTERM, os.Interrupt, os.Kill)
 	<-sc
